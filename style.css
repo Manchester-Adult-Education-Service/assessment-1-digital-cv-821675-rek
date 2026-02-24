@@ -8,6 +8,16 @@ h1 {
   color: navy;
 }
 
+.hero-container {
+  display: flex; 
+}
+
+.hero-container img {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+
 h2 {
   color: darkblue;
   background-color: lightblue;
@@ -46,6 +56,10 @@ ul, ol {
   margin-bottom: 16px;
 }
 
+.education-items li:first-child {
+  font-weight: 600;
+}
+
 a {
   color: blue;
   text-decoration: none;
@@ -54,11 +68,6 @@ a {
 a:hover {
   color: red;
   text-decoration: underline;
-}
-
-img {
-  width: 200px;
-  border: 2px solid grey;
 }
 
 footer {
@@ -70,4 +79,13 @@ footer {
   background-color: lightyellow;
   border: 2px solid darkgreen;
   padding: 10px;
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: center; /* Centres links horizontally */
+  gap: 40px;               /* Adds space between the links */
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
 }
