@@ -1,11 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   background-color: lightgrey;
-  color: black;
+  color: #000000;
 }
 
 h1 {
-  color: navy;
+  color: #000080;
 }
 
 .hero-container {
@@ -13,14 +13,14 @@ h1 {
 }
 
 .hero-container img {
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px;
   width: 200px;
 }
 
 h2 {
   color: darkblue;
-  background-color: lightblue;
+  background-color: hwb(195 68% 10%);
   padding: 8px;
   margin-top: 20px;
   margin-bottom: 8px;
@@ -32,25 +32,25 @@ p {
 }
 
 li {
-  color: darkgreen;
+  color: #006400;
   margin-bottom: 6px;
 }
 
 header {
-  background-color: white;
+  background-color: #ffffff;
   padding: 16px;
   margin: 16px;
-  border: 2px solid grey;
+  border: 2px solid #808080;
   position: sticky;
   top: 0;
 }
 
 main {
-  background-color: white;
+  background-color: #ffffff;
   padding: 16px;
   margin: 20px auto;
   width: 80%;
-  border: 2px solid grey;
+  border: 2px solid #808080;
 }
 
 ul, ol {
@@ -63,7 +63,7 @@ ul, ol {
 }
 
 a {
-  color: blue;
+  color: #0000ff;
   text-decoration: none;
 }
 
@@ -78,8 +78,8 @@ footer {
 }
 
 .highlight {
-  background-color: lightyellow;
-  border: 2px solid darkgreen;
+  background-color: #ffffe0;
+  border: 2px solid #006400;
   padding: 10px;
 }
 
